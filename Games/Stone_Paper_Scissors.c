@@ -13,7 +13,7 @@ int main()
    BasicInstructions();
 
    int playerone=0; 
-   while(score_player_one!=5 || score_computer!=5)
+   while(score_player_one<5 && score_computer<5)
    {
         printf(" Your turn\n");
         scanf("%d", &playerone);
@@ -26,7 +26,7 @@ int main()
        printf("Congratulations! Player 1 won!!\n");
    }   
 
-   if(score_computer=5)
+   if(score_computer==5)
    {
        printf("Congratulations! Player 1 won!!\n");
    }    
